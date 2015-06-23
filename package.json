@@ -1,0 +1,45 @@
+{
+  "name": "sandwhich",
+  "version": "0.0.1",
+  "description": "Which sandwich?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frxnz/sandwhich.git"
+  },
+  "author": "Derek Wheelden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frxnz/sandwhich/issues"
+  },
+  "homepage": "https://github.com/frxnz/sandwhich",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "chalk": "^1.0.0",
+    "dotenv": "^1.2.0",
+    "express": "^4.13.0",
+    "express-handlebars": "^2.0.1",
+    "googleplaces": "^0.5.1",
+    "mongoose": "^4.0.6"
+  },
+  "devDependencies": {
+    "beepbeep": "^1.2.0",
+    "del": "^1.1.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-html-replace": "^1.4.5",
+    "gulp-iconify": "^0.3.0",
+    "gulp-jshint": "^1.10.0",
+    "gulp-livereload": "^3.8.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-uglifyjs": "^0.6.2",
+    "jshint-stylish": "^1.0.1"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "sandwhich",
+  "version": "0.0.1",
+  "homepage": "https://github.com/frxnz/sandwhich",
+  "authors": [
+    "Derek Wheelden <derek.wheelden@gmail.com>"
+  ],
+  "directory": "static/components",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "modernizr": "~2.8.3"
+  }
+}
