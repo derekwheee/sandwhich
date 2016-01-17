@@ -11,9 +11,9 @@ this["templates"]["nope"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main
 this["templates"]["which"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression;
 
-  return "<div class=\"which\">\n    "
+  return "<div class=\"which\">\n    <p>\n        "
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.which : depth0)) != null ? stack1.name : stack1), depth0))
     + " from "
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.venue : depth0)) != null ? stack1.name : stack1), depth0))
-    + "\n</div>\n";
+    + "\n    </p>\n    <p>\n        Don't want this? <a href=\"/\">Try again</a>.\n    </p>\n</div>\n";
 },"useData":true});
