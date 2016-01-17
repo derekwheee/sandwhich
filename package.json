@@ -4,7 +4,8 @@
   "description": "Which sandwich?",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/frxnz/sandwhich",
   "dependencies": {
     "body-parser": "^1.13.1",
+    "bower": "^1.7.2",
     "chalk": "^1.0.0",
     "dotenv": "^1.2.0",
     "express": "^4.13.0",
