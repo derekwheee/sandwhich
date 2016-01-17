@@ -6,7 +6,7 @@ this["templates"]["gettingVenues"] = Handlebars.template({"compiler":[7,">= 4.0.
     return "<div class=\"loading venues\">\n    Getting hungry?\n</div>\n";
 },"useData":true});
 this["templates"]["nope"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    return "<div class=\"error nope\">\n    <img src=\"https://media.giphy.com/media/10oRQhnkcc72Le/giphy.gif\">\n</div>\n";
+    return "<div class=\"error nope\">\n    <img src=\"https://media.giphy.com/media/10oRQhnkcc72Le/giphy.gif\">\n    <p>\n        <a href=\"/\">Try Again</a>\n    </p>\n</div>\n";
 },"useData":true});
 this["templates"]["which"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression;
