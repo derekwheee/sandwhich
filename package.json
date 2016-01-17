@@ -23,23 +23,31 @@
     "express": "^4.13.0",
     "express-handlebars": "^2.0.1",
     "googleplaces": "^0.5.1",
-    "mongoose": "^4.0.6"
+    "mongoose": "^4.0.6",
+    "request": "^2.67.0"
   },
   "devDependencies": {
     "beepbeep": "^1.2.0",
+    "chalk": "^1.1.1",
     "del": "^1.1.1",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.1.0",
-    "gulp-concat": "^2.5.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-declare": "^0.3.0",
+    "gulp-handlebars": "^4.0.0",
     "gulp-html-replace": "^1.4.5",
     "gulp-iconify": "^0.3.0",
     "gulp-jshint": "^1.10.0",
     "gulp-livereload": "^3.8.0",
     "gulp-plumber": "^1.0.0",
     "gulp-rename": "^1.2.2",
+    "gulp-replace-task": "^0.11.0",
     "gulp-sass": "^2.0.1",
     "gulp-sourcemaps": "^1.5.1",
     "gulp-uglifyjs": "^0.6.2",
-    "jshint-stylish": "^1.0.1"
+    "gulp-wrap": "^0.11.0",
+    "handlebars": "^4.0.5",
+    "jshint-stylish": "^1.0.1",
+    "merge-stream": "^1.0.0"
   }
 }

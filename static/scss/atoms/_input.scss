@@ -1,0 +1,19 @@
+input[type="text"] {
+    display: block;
+    width: 100%;
+    max-width: 20em;
+    margin: 0.25em 0;
+    padding: 1em;
+    border: none;
+    font-size: 1em;
+    background: lighten($color-third, 5%);
+
+    &:focus {
+        outline: none;
+        background: $color-third;
+    }
+
+    &::placeholder {
+        color: darken($color-bumblebee, 15%);
+    }
+}

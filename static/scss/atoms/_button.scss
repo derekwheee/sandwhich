@@ -1,0 +1,8 @@
+.button {
+    @extend %paragraph;
+    padding: 1em;
+    border: none;
+    background: $color-fourth;
+    font-size: 0.8em;
+    color: white;
+}

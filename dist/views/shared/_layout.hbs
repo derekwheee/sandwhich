@@ -16,10 +16,10 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="/components/modernizr/modernizr.js"></script>
 
-        <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,400italic,700italic|Source+Code+Pro|Source+Serif+Pro:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,700italic,400italic,300|Yeseva+One' rel='stylesheet' type='text/css'>
 
     </head>
-    <body>
+    <body data-controller="{{controller}}">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -28,13 +28,15 @@
 
         </header>
 
-        <main>
+        <main class="main">
             {{{body}}}
         </main>
 
         <footer class="site-footer">
 
         </footer>
+
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3Kx-BI2XqGc-eVnEKJxLunqLa8qj1R8o"></script>
 
         <script src="js/scripts.min.js"></script>
 
