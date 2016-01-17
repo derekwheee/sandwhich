@@ -34,7 +34,7 @@ app.get('/which', function (req, res) {
     var params = {
         latitude : req.query.latitude,
         longitude : req.query.longitude,
-        radius : req.query.radius || 200
+        radius : parseInt(req.query.radius) || 200
     };
 
     var postData = {

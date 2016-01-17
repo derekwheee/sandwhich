@@ -39,17 +39,33 @@ Which.prototype.home = function () {
 Which.prototype.searchVenues = function (latlng) {
 
     var _this = this;
+    var options;
+    var radius;
 
     if (!latlng) {
         this.replaceTemplate(templates.nope);
         return false;
     }
 
+    if (latlng.length === 3) {
+        radius = latlng[2];
+    } else {
+        radius = !$('form').length ? 200 : $('form').serializeArray().filter(function(obj) {
+            return obj.name == 'radius';
+        })[0].value;
+    }
+
+    options = {
+        latitude : latlng[0],
+        longitude : latlng[1],
+        radius : radius
+    };
+
     this.replaceTemplate(templates.gettingVenues);
 
-    window.location.hash = latlng[0] + ',' + latlng[1];
+    window.location.hash = options.latitude + ',' + options.longitude + ',' + options.radius;
 
-    $.get('/which', { latitude : latlng[0], longitude : latlng[1] }, function (data) {
+    $.get('/which', options, function (data) {
 
         var parsed = _.compact(_.map(JSON.parse(data).venues, function (venue) {
             if ('menus' in venue) return venue;
