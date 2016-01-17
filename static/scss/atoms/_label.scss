@@ -1,4 +1,9 @@
 .form-label {
     display: block;
     text-transform: lowercase;
+
+    small {
+        font-size: 0.8em;
+        opacity: 0.5;
+    }
 }

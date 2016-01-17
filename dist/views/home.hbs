@@ -3,7 +3,7 @@
 </h1>
 
 <div class="template">
-    <form class="search-form" action="/which" method="POST">
+    <form class="search-form" action="/which" method="GET">
 
         <div class="form-field">
             <label class="form-label" for="address">Address</label>
@@ -21,8 +21,8 @@
         </div>
 
         <div class="form-field">
-            <label class="form-label" for="zip">Zip Code</label>
-            <input type="text" id="zip" name="zip" placeholder="19808">
+            <label class="form-label" for="radius">Radius <small>(in meters)</small></label>
+            <input type="text" id="radius" name="radius" placeholder="200">
         </div>
 
         <div class="form-field">
